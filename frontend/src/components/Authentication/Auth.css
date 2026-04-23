@@ -1,0 +1,5 @@
+/* Auth.css */
+.auth-bg {
+  @apply bg-no-repeat bg-cover bg-center min-h-screen flex items-center justify-center px-4 py-8;
+  background-image: url("/wallpaper.jpg");
+}

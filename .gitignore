@@ -1,0 +1,87 @@
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.local
+.env.production
+backend/.env
+
+# SSL/TLS Certificates
+backend/certs/
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environments
+venv/
+ml_venv/
+venv_p1/
+venv_p2/
+backend/venv/
+backend/ml/ml_venv/
+backend/calories_prediction/venv_p1/
+backend/calories_prediction/venv_p2/
+
+# ========================
+# Node.js
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# ========================
+# Generated / Runtime Files
+# ========================
+backend/network_sim/generated_plots/
+backend/calories_prediction/vital_signs_data.json
+backend/calories_prediction/prediction_result_*.txt
+*.log
+
+# User Uploaded Content
+backend/static/profile_pics/*
+!backend/static/profile_pics/.gitkeep
+
+# ========================
+# IDE & Editor
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ========================
+# Documents
+# ========================
+*.pdf
+
+# Root level package files (not part of frontend/backend)
+/package.json
+/package-lock.json

@@ -1,0 +1,63 @@
+================================================================================
+TRAINING SUMMARY
+================================================================================
+
+Training Date: 2025-12-29 13:34:39
+
+Model Performance:
+--------------------------------------------------------------------------------
+
+Random Forest:
+  RMSE: 0.9761
+  MAE:  0.3881
+  R²:   0.9998
+  MSE:  0.9528
+
+XGBoost:
+  RMSE: 1.0551
+  MAE:  0.6525
+  R²:   0.9997
+  MSE:  1.1132
+
+AdaBoost:
+  RMSE: 8.4803
+  MAE:  6.4885
+  R²:   0.9822
+  MSE:  71.9162
+
+Gradient Boosting:
+  RMSE: 1.0691
+  MAE:  0.7459
+  R²:   0.9997
+  MSE:  1.1429
+
+Ridge:
+  RMSE: 5.8381
+  MAE:  3.9186
+  R²:   0.9916
+  MSE:  34.0838
+
+Voting Ensemble:
+  RMSE: 2.2851
+  MAE:  1.5968
+  R²:   0.9987
+  MSE:  5.2216
+
+Stacking Ensemble:
+  RMSE: 0.8316
+  MAE:  0.4778
+  R²:   0.9998
+  MSE:  0.6915
+
+================================================================================
+FILES SAVED:
+================================================================================
+  - saved_models\random_forest_20251229_133435.pkl
+  - saved_models\xgboost_20251229_133435.pkl
+  - saved_models\adaboost_20251229_133435.pkl
+  - saved_models\gradient_boosting_20251229_133435.pkl
+  - saved_models\ridge_20251229_133435.pkl
+  - saved_models\voting_ensemble_20251229_133435.pkl
+  - saved_models\stacking_ensemble_20251229_133435.pkl
+  - saved_models\scaler_20251229_133435.pkl
+  - saved_models\model_results_20251229_133435.csv
