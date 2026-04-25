@@ -714,7 +714,7 @@ MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/?appName=<
     </td>
     <td align="center">
       <a href="https://github.com/omer-ansar">
-        <img src="https://github.com/omer-ansar.png" width="100px;" alt="Omer Ansar"/>
+        <img src="https://github.com/omeransar2005.png" width="100px;" alt="Omer Ansar"/>
         <br/><sub><b>Omer Ansar</b></sub>
       </a>
     </td>
